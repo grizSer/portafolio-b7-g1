@@ -2,3 +2,21 @@ body {
     background-color: #f7f2fa;
      }
     
+#presentacion {
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#proyecto-1{
+    background-image: url("imagenes/ClonGoogle.png");
+}
+
+#proyecto-2{
+    background-image: url("imagenes/paginaagave.png");
+}
+
+#proyecto-3{
+    background-image: url("imagenes/Juegosecreto.png");
+}
