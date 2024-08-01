@@ -1,5 +1,5 @@
 body {
-    background-color: #f7f2fa;
+    background-color: #ffffff;
      }
     
 #presentacion {
@@ -7,7 +7,9 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    background-image: url(imagenes/Fondo.jpg);
 }
+
 
 #proyecto-1{
     background-image: url("imagenes/ClonGoogle.png");
