@@ -7,7 +7,17 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+
     background-image: url(imagenes/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proyecto {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
