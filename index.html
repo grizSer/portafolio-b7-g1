@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grissel Serrano</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -49,11 +53,10 @@
             <div class="container col-xxl-8 px-4 py-5 mb-3 d-flex justify-content-start align-items-center">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-lg-6">
-                        <img src="imagenes/portafolio.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes"
-                            width="700" height="500" loading="lazy">
+                        <img src="imagenes/portafolio.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" height="600" loading="lazy">
                     </div>
                     <div class="col-lg-6 text-bg-dark rounded-4 p-4">
-                        <h1 class="display-5 fw-bold lh-1 mb-3 text-lila">Grissel Serrano</h1>
+                        <h1 id="app" class="display-5 fw-bold lh-1 mb-3 text-lila arbutus-regular">Grissel Serrano</h1>
                         <p class="lead">Soy ingeniera en Biotecnología apasionada por la innovación en áreas como la agricultura, industria alimentaria, farmacéutica y ambiental. Me destaco en el trabajo en equipo y la gestión de proyectos biotecnológicos. Actualmente, estoy ampliando mis habilidades en desarrollo front-end.</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button type="button" class="btn btn-lila btn-lg px-4 me-md-2">Contáctame</button>
@@ -66,7 +69,7 @@
 
 
         <section id="habilidades" class="container px-5 py-5">
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <h2 class="pb-2 border-bottom press-start-2p-regular text-bg-lila">Habilidades</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="feature col text-center">
                     <div
@@ -120,15 +123,15 @@
         </section>
 
         <section id="proyectos" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <h2 class="pb-2 border-bottom press-start-2p-regular text-bg-lila">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
                 <div class="col">
                     <div id="proyecto-1" 
-                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-secondary text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg bg-body-secondary">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-secondary">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold press-start-2p-regular text-center text-lila text-shadow-1">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png" alt="Google" width="32" height="32" class="rounded-circle border border-secondary">
@@ -143,12 +146,12 @@
 
                 <div class="col">
                     <div id="proyecto-2" 
-                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-3">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Página WEB sobre el agave</h3>
+                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 bg-info-subtle shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold press-start-2p-regular text-center text-lila text-shadow-1">Página WEB sobre el agave</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="imagenes/favicon agave.png" alt="Google" width="32" height="32" class="rounded-circle border border-info">
+                                    <img src="imagenes/favicon agave.png" alt="Google" width="32" height="32" class="rounded-circle border border-secodary">
                                 </li>
                                 <li class="d-flex align-items-center me-3">
                                     <a href="https://github.com/grizSer/pagina-personalizada-b7-g1" target="_blank" class="ps-3">URL</a>
@@ -160,9 +163,9 @@
 
                 <div class="col">
                     <div id="proyecto-3" 
-                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-info text-shadow-3">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Juego secreto</h3>
+                    class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg bg-primary-subtle">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-info">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold press-start-2p-regular text-center text-lila text-shadow-1">Juego secreto</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <img src="https://www.aluracursos.com/assets/img/alura-share.1720710819.png" alt="Google" width="32" height="32" class="rounded-circle border border-white">
@@ -186,23 +189,23 @@
                     
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img class="rounded-circle" src="https://www.biografiasyvidas.com/monografia/newton/fotos/newton_joven.jpg" height="200" alt="Referidos">
+                            <img class="rounded-circle" src="imagenes/Isasc_Newton.jpg" height="200" alt="Referidos">
                             <h3 class="my-3">Isaac Newton</h3>
-                            <p>Grissel es muy creativa</p>
+                            <p>Lo que sabemos es una gota, lo que ignoramos es un océano</p>
                         </article>
                     </div>
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img class="rounded-circle" src="https://youth.europa.eu/d8/sites/default/files/nnfe-people/3.jpg" height="200" alt="Referidos">
+                            <img class="rounded-circle" src="imagenes/Albert_Einstein.jpg" height="200" alt="Referidos">
                             <h3 class="my-3">Albert Einstein</h3>
-                            <p>Conoce perfectamente la teoría de la relatividad</p>
+                            <p>El mundo que hemos creado es un proceso de nuestro pensamiento</p>
                         </article>
                     </div>
                     <div class="carousel-item">
                         <article class="container text-center">
                             <img class="rounded-circle" src="https://s.rfi.fr/media/display/69e8bcce-1701-11ea-90d6-005056bf7c53/w:1280/p:1x1/stephen_hawking_0.jpg" height="200" alt="Referidos">
                             <h3 class="my-3">Stephen Hawking</h3>
-                            <p>Es una excelente conocedora en la teoría del todo</p>
+                            <p>Los virus de computadoras deberían ser considerados como vida</p>
                         </article>
                     </div>
                 </div>
@@ -219,7 +222,7 @@
 
 
 
-    </main>
+    /main>
 
 
     <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
@@ -227,7 +230,7 @@
             <i> <img src="imagenes/mundito.gif" width="80">
             </i>
         </p>
-        <h4 class="text-white text-center mb-5">"Trabajo para hacer un mundo mejor y dejar una pequeña huella en él."</h4>
+        <h4 id="frase" class="text-white text-center mb-5">"Trabajo para hacer un mundo mejor y dejar una pequeña huella en él."</h4>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item fs-1 ">
                 <a href="https://github.com/grizSer" target="_blank" class="nav-link px-5 text-body-secondary">
@@ -249,6 +252,10 @@
     </footer>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

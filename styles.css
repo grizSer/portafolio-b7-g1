@@ -26,7 +26,7 @@ body {
 }
 
 .proyecto {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -43,4 +43,26 @@ body {
     background-image: url("imagenes/Juegosecreto.png");
 }
 
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
 
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.arbutus-regular {
+    font-family: "Arbutus", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  
+  
+  
