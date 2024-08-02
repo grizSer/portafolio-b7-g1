@@ -1,26 +1,24 @@
 body {
     background-color: #ffffff;
-     }
-    
+}
+
 #presentacion {
-    height: 90vh;
     display: flex;
     justify-content: start;
     align-items: center;
-
     background-image: url(imagenes/Fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.text-lila, .text-bg-lila{
+.text-lila, .text-bg-lila {
     color: #f1a3c7;
 }
 
 .btn-lila {
     background-color: #f1a3c7;
-    color: white; 
+    color: white;
 }
 
 .btn-lila:hover {
@@ -33,15 +31,16 @@ body {
     background-position: center;
 }
 
-
-#proyecto-1{
+#proyecto-1 {
     background-image: url("imagenes/ClonGoogle.png");
 }
 
-#proyecto-2{
+#proyecto-2 {
     background-image: url("imagenes/paginaagave.png");
 }
 
-#proyecto-3{
+#proyecto-3 {
     background-image: url("imagenes/Juegosecreto.png");
 }
+
+
